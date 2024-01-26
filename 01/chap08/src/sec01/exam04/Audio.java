@@ -19,7 +19,7 @@ public class Audio implements RemoteControl {
 
     @Override
     public void setVolume(int volume) {
-        if (volume > RemoteControl.MIN_VOLUME) {
+        if (volume > RemoteControl.MAX_VOLUME) {
             this.volume = RemoteControl.MAX_VOLUME;
         } else if (volume < RemoteControl.MIN_VOLUME) {
             this.volume = RemoteControl.MIN_VOLUME;
