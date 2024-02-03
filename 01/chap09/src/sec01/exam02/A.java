@@ -17,12 +17,12 @@ public class A {
     }
 
     // 정적 필드 초기화
-//    static B field3 = new B();
+//    static B field3 = new B(); // x
     static C field4 = new C();
 
     // 정적 메소드
     static void method2() {
-//        B var1 = new B();
+//        B var1 = new B(); // x
         C var2 = new C();
     }
 }
