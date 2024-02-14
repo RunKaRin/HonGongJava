@@ -6,6 +6,6 @@ public class ArrayIndexOutOfBoundsExceptionExample {
         String data2 = args[1];
 
         System.out.println("args[0] = " + data1);
-        System.out.println("args[2] = " + data1);
+        System.out.println("args[2] = " + data2);
     }
 }
