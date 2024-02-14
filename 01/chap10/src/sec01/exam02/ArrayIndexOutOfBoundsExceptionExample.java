@@ -1,4 +1,4 @@
-package sec01.exam01;
+package sec01.exam02;
 
 public class ArrayIndexOutOfBoundsExceptionExample {
     public static void main(String[] args) {
